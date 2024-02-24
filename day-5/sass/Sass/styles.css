@@ -10,6 +10,39 @@ body {
   background-position: center;
   background-repeat: no-repeat;
 }
+#mount > #head {
+  width: 670.93px;
+  height: 105px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 270px 0 0 624px;
+}
+#mount > #head > h2 {
+  font-family: Inter;
+  font-size: 69px;
+  font-weight: 700;
+  line-height: 105px;
+  margin: 0;
+  letter-spacing: 0em;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+#mount > #para {
+  width: 395.05px;
+  height: 48.12px;
+  padding: 24px 0 0 762.56px;
+  color: rgb(255, 255, 255);
+}
+#mount > #para > p {
+  margin: 0px;
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+}
 
 section {
   display: flex;
