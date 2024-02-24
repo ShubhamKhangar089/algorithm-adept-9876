@@ -11,6 +11,8 @@ body {
   font-family: Inter;
   font-size: 30px;
   font-weight: 700;
+  line-height: 45px;
+  letter-spacing: 0em;
   text-align: left;
   padding: 0;
   margin: 0;
@@ -22,7 +24,6 @@ body {
   padding-top: 5px;
   padding-left: 15px;
   padding-right: 15px;
-  /* border: 1px solid; */
 }
 
 @media (min-width: 1320px) {
@@ -45,9 +46,6 @@ body {
   display: flex;
   box-sizing: border-box;
   gap: 32px;
-}
-.cardcontainer > .cards {
-  border: 1px solid;
 }
 .cardcontainer > .cards > div {
   width: 190px;
@@ -105,7 +103,6 @@ body {
 }
 
 .attraction {
-  /* border: 1px solid; */
   margin-top: 115px;
   display: flex;
   padding-top: 5px;
@@ -128,7 +125,6 @@ body {
 }
 .attraction > .grid > div {
   display: flex;
-  /* border: 1px solid; */
 }
 .attraction > .grid > div > img {
   width: 100px;
@@ -139,7 +135,6 @@ body {
   margin-left: 30px;
   margin-top: 28.38px;
   margin-bottom: 27.62px;
-  /* border: 1px solid; */
   width: auto;
   display: flex;
   flex-direction: column;
@@ -192,14 +187,12 @@ body {
   background-image: url(images/customer\ reviews\ background.png);
   width: auto;
   margin-top: 105px;
-  /* border: 1px solid; */
   box-sizing: border-box;
   padding: 120px 300px 120px 300px;
   background-position: center;
 }
 .customer_review .container {
   width: 100%;
-  /* border: 1px solid; */
   box-sizing: border-box;
   padding-bottom: 16.99px;
 }
@@ -216,7 +209,6 @@ body {
   flex-direction: column;
   padding-left: 12.8px;
   padding-right: 12.61px;
-  /* border: 1px solid; */
 }
 .customer_review .container > div > img {
   width: 100px;
@@ -234,7 +226,6 @@ body {
   color: #EB662B;
 }
 .customer_review .container > div > div:nth-of-type(1) {
-  /* border: 1px solid; */
   box-sizing: border-box;
 }
 .customer_review .container > div > div:nth-of-type(1) > p {
@@ -248,7 +239,6 @@ body {
 }
 .customer_review .container > div > div:nth-of-type(2) {
   margin-top: 28.5px;
-  /* border: 1px solid; */
   box-sizing: border-box;
 }
 .customer_review .container > div > div:nth-of-type(2) > p {
@@ -261,7 +251,6 @@ body {
 }
 .customer_review .container > div > div:nth-of-type(3) {
   margin-top: 2.6px;
-  /* border: 1px solid; */
   box-sizing: border-box;
 }
 .customer_review .container > div > div:nth-of-type(3) > p {
