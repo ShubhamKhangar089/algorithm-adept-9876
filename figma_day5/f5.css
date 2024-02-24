@@ -1,0 +1,203 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+body .container {
+  margin: 0px;
+  padding: 0px;
+}
+body .container .foot {
+  display: flex;
+  flex-direction: column;
+  width: 1320px;
+  height: 115px;
+  top: 6868.3px;
+  left: 300px;
+  padding: 0px, 15px, 0px, 15px;
+}
+body .container .foot .foot1 {
+  color: #05073C;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 45px;
+  font-style: Inter;
+}
+body .container .footer {
+  background-color: rgb(5, 7, 60);
+  width: 1920px;
+  height: 723.25px;
+  top: 7103.3px;
+  color: rgb(255, 255, 255);
+}
+body .container .footer .c1 {
+  width: 1320px;
+  height: 655.13px;
+  left: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+body .container .footer .c1 .c11 {
+  width: 1290px;
+  height: 185.13px;
+  left: 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 0px, 0px, 1px, 0px;
+  border-bottom: 1px solid rgba(235, 102, 43, 0.15);
+}
+body .container .footer .c1 .c11 .s1 {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 372.76px;
+  top: 94.31px;
+  left: 80px;
+  height: 26px;
+}
+body .container .footer .c1 .c11 .s2 {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 74.72px;
+  height: 31.88px;
+  width: 74.72px;
+  top: 84.06px;
+  left: 1045.48px;
+}
+body .container .footer .c2 {
+  margin-top: 39.99px;
+  display: flex;
+  justify-content: space-between;
+}
+body .container .footer .c2 .contact {
+  padding-left: 15px;
+  width: 439.98px;
+  height: 390px;
+  top: 225.12px;
+  background-color: chartreuse;
+}
+body .container .footer .c2 .contact .p1 {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 77.15px;
+  height: 30px;
+  top: 20px;
+  left: 15px;
+}
+body .container .footer .c2 .contact .p2 {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 356.62px;
+  height: 48.13px;
+}
+body .container .footer .c2 .contact .p3 {
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 400;
+  width: 356.62px;
+  height: 48.13px;
+  top: 79px;
+  left: 15px;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+body .container .footer .c2 .company {
+  width: 128.23px;
+  height: 390px;
+  top: 225.12px;
+  padding-left: 15px;
+  left: 540.7px;
+  background-color: red;
+}
+body .container .footer .c2 .company .c1 {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0em;
+  margin-top: 20px;
+  margin-left: 0px;
+  width: 91.47px;
+  background-color: yellow;
+  height: 30px;
+  top: 20px;
+}
+body .container .footer .c2 .company p {
+  font-weight: 500;
+  font-size: 15px;
+  height: 20px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+body .container .footer .c2 .support {
+  width: 119.59px;
+  height: 390px;
+  top: 225.12px;
+  left: 769.66px;
+  padding: 0px;
+  padding-left: 15px;
+  background-color: aqua;
+  font-weight: 500;
+}
+body .container .footer .c2 .support div {
+  width: 76.81px;
+  height: 30px;
+  margin-top: 20px;
+  font-size: 19.84px;
+}
+body .container .footer .c2 .support p {
+  font-size: 14.8px;
+}
+body .container .footer .c2 .news {
+  width: 330px;
+  height: 390px;
+  background-color: red;
+  padding-left: 15px;
+  padding-top: 20px;
+}
+body .container .footer .c2 .news .hed {
+  font-size: 19.69px;
+  font-weight: 500;
+  line-height: 30px;
+}
+body .container .footer .c2 .news .div1 {
+  width: 300px;
+  height: 60px;
+  padding: 20px, 21px, 20px, 21px;
+  border-radius: 12px;
+  border: 1px;
+  background-color: white;
+}
+body .container .footer .c2 .news .div1 .div2 {
+  padding-top: 20px;
+  padding-left: 21px;
+  width: 258px;
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+body .container .footer .c2 .news .div1 .div2 .div21 {
+  color: rgb(117, 117, 117);
+  width: 131.43px;
+  height: 20px;
+}
+body .container .footer .c2 .news .div1 .div2 .div22 {
+  color: rgb(5, 7, 60);
+  width: 35.45px;
+}/*# sourceMappingURL=f5.css.map */
