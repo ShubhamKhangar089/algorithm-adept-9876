@@ -57,7 +57,6 @@ section {
 section > .box {
   width: 1320px;
   height: 416.38px;
-  border: 1px solid;
 }
 section > .box > h2 {
   font-family: "Inter", sans-serif;
