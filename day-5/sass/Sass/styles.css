@@ -4,37 +4,42 @@ body {
 }
 
 #mount {
-  width: 1920px;
+  width: auto;
   height: 721.25px;
   background-image: url(./image/mountain_pic.png);
   background-position: center;
-  background-repeat: no-repeat;
-}
-#mount > #head {
-  width: 670.93px;
-  height: 105px;
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 270px 0 0 624px;
 }
-#mount > #head > h2 {
+#mount > div {
+  width: 700.73px;
+  height: 181.25px;
+  padding: 0px 14.8px 4.13px 15px;
+}
+#mount > div > #head {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+#mount > div > #head > h2 {
   font-family: Inter;
   font-size: 69px;
   font-weight: 700;
   line-height: 105px;
   margin: 0;
   letter-spacing: 0em;
-  text-align: center;
   color: rgb(255, 255, 255);
 }
-#mount > #para {
-  width: 395.05px;
+#mount > div > #para {
   height: 48.12px;
-  padding: 24px 0 0 762.56px;
+  display: flex;
+  justify-content: center;
+  padding: 24px 0 0 0px;
   color: rgb(255, 255, 255);
 }
-#mount > #para > p {
+#mount > div > #para > p {
   margin: 0px;
   font-family: Inter;
   font-size: 15px;
@@ -52,6 +57,7 @@ section {
 section > .box {
   width: 1320px;
   height: 416.38px;
+  border: 1px solid;
 }
 section > .box > h2 {
   font-family: "Inter", sans-serif;
@@ -166,6 +172,11 @@ section > .box2 > div > .card > .subtital > h3 {
 @media (min-width: 2000px) {
   #mount {
     max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  section > .box2 {
+    max-width: 1320px;
     margin-left: auto;
     margin-right: auto;
   }
