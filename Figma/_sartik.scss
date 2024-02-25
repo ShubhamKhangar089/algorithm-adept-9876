@@ -1,9 +1,9 @@
 body{
     margin: 0px;
     padding:0px;
-    background-image: url(./img/SVG.png);
-    background-repeat: no-repeat;
-    background-position: center;
+    // background-image: url(./img/SVG.png);
+    // background-repeat: no-repeat;
+    // background-position: center;
     .container{
       width: auto;
       background-color: white;
@@ -150,15 +150,22 @@ body{
    height: 205px;
    margin-top: 115px;
    padding-left: 15px;
+//    border:1px solid black;
    .spe1{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 45px;
+    // border:1px solid black;
+
     h2{
+        // border:1px solid black;
+        margin: 0;
+        
         font-family: Inter;
-font-size: 30px;
+font-size: 27.77px;
 font-weight: 700;
-line-height: 45px;
+
 letter-spacing: 0em;
 text-align: left;
  width: 206.51px;
