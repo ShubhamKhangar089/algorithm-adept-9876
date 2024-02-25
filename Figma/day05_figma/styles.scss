@@ -52,7 +52,7 @@ body {
 .cardcontainer {
 
     // height: 210px;
-    margin-top: 45px;
+    // margin-top: 45px;
     // maleft: 15px;
     width: auto;
     // border: 5px solid black;
@@ -103,6 +103,7 @@ body {
     padding: 50px 50px 50px 50px;
     display: flex;
     justify-content: space-around;
+    border-radius: 16px;
 
     >h2 {
         font-family: Inter;
@@ -137,6 +138,7 @@ body {
 
 
     }
+    
 }
 
 // attraction
@@ -157,7 +159,7 @@ body {
         // margin-top: 5px;
         margin: 0px;
     }
-
+     
     >.grid {
         display: grid;
         grid-template-areas: "a d g"
@@ -166,9 +168,9 @@ body {
 
         margin-top: 95px;
         width: 100%;
-        margin-left: -228px;
+        margin-left: -202px;
         row-gap: 30px;
-
+    column-gap: 119px;
         >div {
 
             display: flex;

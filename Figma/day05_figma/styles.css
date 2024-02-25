@@ -40,7 +40,7 @@ body {
     margin-right: auto;
   }
 }
-.cardcontainer {
+/* .cardcontainer {
   margin-top: 45px;
   width: auto;
   display: flex;
@@ -67,14 +67,16 @@ body {
   margin-top: 4px;
   margin-bottom: 0;
   text-align: left;
-}
+} */
 
 .early_booking {
-  margin-top: 105px;
+  margin-top: 75px;
   background-color: #EB662B;
   padding: 50px 50px 50px 50px;
   display: flex;
   justify-content: space-around;
+  border-radius: 16px;
+  
 }
 .early_booking > h2 {
   font-family: Inter;
@@ -103,9 +105,10 @@ body {
 }
 
 .attraction {
-  margin-top: 115px;
+  margin-top: 105px;
   display: flex;
   padding-top: 5px;
+  
 }
 .attraction > h2 {
   font-family: Inter;
@@ -120,8 +123,9 @@ body {
   grid-template-areas: "a d g" "b e h" "c f i";
   margin-top: 95px;
   width: 100%;
-  margin-left: -228px;
+  margin-left: -202px;
   row-gap: 30px;
+  column-gap: 119px;
 }
 .attraction > .grid > div {
   display: flex;
