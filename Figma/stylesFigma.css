@@ -563,4 +563,307 @@ body .special .spe2 div span {
     margin-right: auto;
     margin-left: auto;
   }
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container div {
+  box-sizing: border-box;
+}
+
+.destination > .container > h2 {
+  font-family: Inter;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 45px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+}
+
+.destination > .container {
+  width: auto;
+  padding-bottom: 19.25px;
+  padding-top: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media (min-width: 1320px) {
+  .container {
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (min-width: 1920px) {
+  .customer_review {
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.cardcontainer {
+  width: auto;
+  display: flex;
+  box-sizing: border-box;
+  gap: 32px;
+}
+.cardcontainer > .cards > div {
+  width: 190px;
+  height: 210px;
+  border-radius: 12px;
+}
+.cardcontainer > .cards > p:nth-of-type(1) {
+  font-family: Inter;
+  font-size: 17px;
+  font-weight: 500;
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 4px;
+}
+.cardcontainer > .cards > p:nth-of-type(2) {
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 400;
+  margin-top: 4px;
+  margin-bottom: 0;
+  text-align: left;
+}
+
+.early_booking {
+  margin-top: 105px;
+  background-color: #EB662B;
+  padding: 50px 50px 50px 50px;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 16px;
+}
+.early_booking > h2 {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FFFFFF;
+}
+.early_booking > button {
+  width: 166.86px;
+  height: 62px;
+  background: #FFFFFF;
+  padding: 17px 35.8px 17px 36px;
+  border-radius: 12px;
+  border: none;
+  margin-left: 686.03px;
+  color: #EB662B;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.attraction {
+  margin-top: 115px;
+  display: flex;
+  padding-top: 5px;
+}
+.attraction > h2 {
+  font-family: Inter;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0px;
+}
+.attraction > .grid {
+  display: grid;
+  grid-template-areas: "a d g" "b e h" "c f i";
+  margin-top: 95px;
+  width: 100%;
+  margin-left: -202px;
+  row-gap: 30px;
+  -moz-column-gap: 119px;
+       column-gap: 119px;
+}
+.attraction > .grid > div {
+  display: flex;
+}
+.attraction > .grid > div > img {
+  width: 100px;
+  height: 100px;
+  border-radius: 12px;
+}
+.attraction > .grid > div > div {
+  margin-left: 30px;
+  margin-top: 28.38px;
+  margin-bottom: 27.62px;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+}
+.attraction > .grid > div > div > h3 {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0em;
+  margin: 0;
+}
+.attraction > .grid > div > div > p {
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 0em;
+  margin-left: 0;
+  margin-top: 4px;
+}
+.attraction > .grid > div:nth-of-type(1) {
+  grid-area: a;
+}
+.attraction > .grid > div:nth-of-type(2) {
+  grid-area: b;
+}
+.attraction > .grid > div:nth-of-type(3) {
+  grid-area: c;
+}
+.attraction > .grid > div:nth-of-type(4) {
+  grid-area: d;
+}
+.attraction > .grid > div:nth-of-type(5) {
+  grid-area: e;
+}
+.attraction > .grid > div:nth-of-type(6) {
+  grid-area: f;
+}
+.attraction > .grid > div:nth-of-type(7) {
+  grid-area: g;
+}
+.attraction > .grid > div:nth-of-type(8) {
+  grid-area: h;
+}
+.attraction > .grid > div:nth-of-type(9) {
+  grid-area: i;
+}
+
+.customer_review {
+  background-image: url(images/customer\ reviews\ background.png);
+  width: auto;
+  margin-top: 105px;
+  box-sizing: border-box;
+  padding: 120px 300px 120px 300px;
+  background-position: center;
+}
+.customer_review .container {
+  width: 100%;
+  box-sizing: border-box;
+  padding-bottom: 16.99px;
+}
+.customer_review .container > h2 {
+  margin-top: 0;
+  font-family: Inter;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.customer_review .container > div {
+  display: flex;
+  flex-direction: column;
+  padding-left: 12.8px;
+  padding-right: 12.61px;
+}
+.customer_review .container > div > img {
+  width: 100px;
+  height: 100px;
+  align-self: center;
+}
+.customer_review .container > div > p:nth-of-type(1) {
+  margin-top: 60px;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #EB662B;
+}
+.customer_review .container > div > div:nth-of-type(1) {
+  box-sizing: border-box;
+}
+.customer_review .container > div > div:nth-of-type(1) > p {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin: 0;
+}
+.customer_review .container > div > div:nth-of-type(2) {
+  margin-top: 28.5px;
+  box-sizing: border-box;
+}
+.customer_review .container > div > div:nth-of-type(2) > p {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0em;
+  text-align: center;
+  margin: 0;
+}
+.customer_review .container > div > div:nth-of-type(3) {
+  margin-top: 2.6px;
+  box-sizing: border-box;
+}
+.customer_review .container > div > div:nth-of-type(3) > p {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: center;
+  margin: 0;
+}
+.customer_review .container > div > div:nth-of-type(4) {
+  width: 100%;
+  display: flex;
+  gap: 8px;
+  margin-top: 77px;
+  height: auto;
+  justify-content: center;
+}
+.customer_review .container > div > div:nth-of-type(4) > div:nth-of-type(1) {
+  width: 18px;
+  height: 6px;
+  border-radius: 20px;
+  background-color: black;
+}
+.customer_review .container > div > div:nth-of-type(4) > div:nth-of-type(2) {
+  width: 6px;
+  height: 6px;
+  border-radius: 20px;
+  background-color: black;
+}
+.customer_review .container > div > div:nth-of-type(4) > div:nth-of-type(3) {
+  width: 6px;
+  height: 6px;
+  border-radius: 20px;
+  background-color: black;
+}
+.customer_review .container > div > div:nth-of-type(4) > div:nth-of-type(4) {
+  width: 6px;
+  height: 6px;
+  border-radius: 20px;
+  background-color: black;
+}
+.customer_review .container > div > div:nth-of-type(4) > div:nth-of-type(5) {
+  width: 6px;
+  height: 6px;
+  border-radius: 20px;
+  background-color: black;
 }/*# sourceMappingURL=stylesFigma.css.map */
