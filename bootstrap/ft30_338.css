@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+background-color: aqua;
+position: sticky;
+top: 0px;
+z-index: 5;
+}   
+.nav{
+display: flex; 
+width: auto;
+border: 1px solid;
+
+}
+nav{
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#navcontener{
+margin-left: 5%;
+}
+#navbarNav{
+margin-left: 8%;
+>.nav-item{
+    font-size: 16px;
+}
+}
+#navbarNav>div:nth-child(3)>button{
+background-color: #e5feff;
+}
+section{
+padding-top: 6%;
+padding-bottom: 3%;
+padding-left: 2%;
+background-image: url(./image338/Landing\ Page.jpg);
+background-repeat: no-repeat;
+background-attachment: ;
+background-position: center center;
+background-attachment: scroll;
+
+
+}
+.content{
+width: 55%;
+height: 80vh;
+margin-left: 6%;
+>div>h1{
+    font-weight: 800;
+}
+
+}
+.contenBox{
+height: 65vh;
+width: 53vw;
+padding-top: 20vh;
+
+>div{
+    width: 25vw;
+    margin-left: 1vw;
+    box-sizing: border-box;
+    border: 1px solid;
+    border-radius: 5%;
+    background-color: #f2f6ff;
+    >div{
+        border: 1px solid red;
+        padding: 11px 0 11px 0;
+        background-color: #5d8de9;
+        color: #f2f6ff;
+        height: inherit;
+        border: 1px solid;
+    }
+}
+>div:nth-child(2){
+    margin-left: 40px;
+}
+}
+.box{
+    width: 10vw;
+}
+.box>div>div>h6>span{
+    padding: 1% 3% 1% 3%;
+    border-radius: 8%;
+    margin: 2vh 1vw 0 1vw;
+    background-color: #f2f6ff;
+    color: #4258f6;
+    font-size: larger;
+    font-weight: 700;
+}
+.form{
+width: 26vw;
+height: 80vh;
+padding-top: 2%;
+margin: 2vh 0 0 2vw;
+
+background-color: white;
+border-radius: 3%;
+box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;        
+>form{
+    padding: 3%;
+    >.form-group{
+        padding: 0% 0 0 0;
+        >label{
+            padding: 0 0 2% 0;
+        }
+        >button{
+            padding: 1.5vh 0 1.5vh 0;
+        }
+    }
+}
+}
+.box{
+border: 1px solid red;
+}
+
+@media(min-width: 1200px){
+.nav{
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+}
