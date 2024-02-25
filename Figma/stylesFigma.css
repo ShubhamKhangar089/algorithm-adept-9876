@@ -569,6 +569,188 @@ body {
   padding: 0;
 }
 
+#mount {
+  width: auto;
+  height: 721.25px;
+  background-image: url(./image/mountain_pic.png);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#mount > div {
+  width: 700.73px;
+  height: 181.25px;
+  padding: 0px 14.8px 4.13px 15px;
+}
+#mount > div > #head {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+#mount > div > #head > h2 {
+  font-family: Inter;
+  font-size: 69px;
+  font-weight: 700;
+  line-height: 105px;
+  margin: 0;
+  letter-spacing: 0em;
+  color: rgb(255, 255, 255);
+}
+#mount > div > #para {
+  height: 48.12px;
+  display: flex;
+  justify-content: center;
+  padding: 24px 0 0 0px;
+  color: rgb(255, 255, 255);
+}
+#mount > div > #para > p {
+  margin: 0px;
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  margin: 110px 0 0 0;
+}
+section > .box {
+  width: 1320px;
+  height: 416.38px;
+}
+section > .box > h2 {
+  font-family: "Inter", sans-serif;
+  font-size: 29px;
+  font-weight: 700;
+  line-height: 45px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: rgb(5, 7, 60);
+}
+section > .box > .container {
+  display: flex;
+  width: 1238.2px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 37.33px;
+  margin-top: 100px;
+}
+section > .box > .container > .boxEle > div:nth-child(1) {
+  width: 60px;
+  height: 60px;
+  margin-left: 97.67px;
+  margin-bottom: 30px;
+}
+section > .box > .container > .boxEle > div:nth-child(1) > .ticket-icon {
+  box-sizing: content-box;
+}
+section > .box > .container > .boxEle > h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0em;
+  text-align: center;
+  color: rgb(5, 7, 60);
+}
+section > .box > .container > .boxEle > div:nth-of-type(2) {
+  width: 255.53px;
+  height: 76.25px;
+}
+section > .box > .container > .boxEle > div:nth-of-type(2) > p {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: center;
+  color: rgb(5, 7, 60);
+}
+section > .box > .container > div {
+  width: 255.53px;
+  height: 207.25px;
+}
+
+section > .box2 {
+  width: 1320px;
+  height: 529.98px;
+}
+section > .box2 > .travel {
+  height: 65px;
+}
+section > .box2 > .travel > h2 {
+  font-family: "Inter", sans-serif;
+  margin: 0px;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 45px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgb(5, 7, 60);
+}
+section > .box2 > .travel > p {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-right: 6.07px;
+  color: rgb(5, 7, 60);
+}
+section > .box2 > div {
+  height: 435px;
+  display: flex;
+  justify-content: space-between;
+}
+section > .box2 > div > .card {
+  height: 435px;
+  width: 409px;
+}
+section > .box2 > div > .card > div:nth-of-type(1) > img {
+  width: 100%;
+  border-radius: 2%;
+}
+section > .box2 > div > .card > p {
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgb(5, 7, 60);
+}
+section > .box2 > div > .card > .subtital > h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgb(5, 7, 60);
+}
+
+@media (min-width: 2000px) {
+  #mount {
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  section > .box2 {
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .container div {
   box-sizing: border-box;
 }
