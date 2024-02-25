@@ -2,15 +2,12 @@ body{
     margin: 0px; 
     padding: 0px;
     .container{
-        margin: 0px;
-        padding: 0px;
+        width: auto;
         .foot{
             display: flex;
             flex-direction: column;
             width: 1320px;
             height: 115px;
-            top: 6868.3px;
-            left: 300px;
             padding: 0px, 15px, 0px, 15px;
              .foot1{
                 color:#05073C;
@@ -18,25 +15,41 @@ body{
                 font-size: 30px;
                 line-height: 45px;
                 font-style: Inter;
+                width: 564.9px;
+                height: 45px;
+                margin-left: 377.64px;
+                text-align: center;
+
 
              }
              .foot2{
+                display: flex;
+                justify-content: space-between;
+                width: 1290px;
+                height: 30px;
+                margin-top:40.33px;
+                padding: 0px, 45px, 0px, 45px;
+                padding-left: 45px;
+                padding-right: 45px;
+
 
              }
 
         }
         .footer{
             background-color: rgba(5, 7, 60, 1);
-            width: 1920px;
+            background-image: url(bg.svg.png);
+            background-repeat: no-repeat;
+            width: auto;
             height: 723.25px;
-            top: 7103.3px;
+            margin-top: 120px;
             color: rgba(255, 255, 255, 1);
              .c1{
                 width: 1320px;
                 height: 655.13px;
                 left: 300px;
                 margin-left: auto;
-            margin-right: auto;
+                margin-right: auto;
                     .c11{
                         width: 1290px;
                         height: 185.13px;
@@ -66,8 +79,8 @@ body{
                             line-height: 32px;
                             letter-spacing: 0em;
                             text-align: left;
-                            width: 74.72px;
-                            height: 31.88px;
+                            width: auto;
+                            height: auto;
                             width: 74.72px;
                             top: 84.06px;
                             left: 1045.48px;
@@ -87,7 +100,7 @@ body{
                     width: 439.98px;
                     height: 390px;
                     top: 225.12px;
-                    background-color: chartreuse;
+                    
 
                 
                    .p1{
@@ -135,7 +148,7 @@ body{
                     height: 390px;
                     top: 225.12px;
                     padding-left: 15px;
-                    left: 540.7px; background-color: red;
+                    
                     .c1{
                         font-family: Inter;
                         font-size: 20px;
@@ -144,8 +157,7 @@ body{
                         letter-spacing: 0em;
                         margin-top: 20px;
                         margin-left: 0px;
-                        width: 91.47px;
-                        background-color: yellow;
+                        width: 91.47px;                        
                         height: 30px;
                         top: 20px;
 
@@ -169,7 +181,6 @@ body{
                     left: 769.66px;
                     padding: 0px;
                     padding-left: 15px;
-                    background-color: aqua;
                     font-weight: 500;
                     div{
                         width: 76.81px;
@@ -186,10 +197,9 @@ body{
                 .news{
                     width: 330px;
                     height: 390px; 
-                    background-color: red;
                     padding-left: 15px;
                     .hed{
-                        font-size: 19.69px;
+                        margin-top: 15px;
                         font-weight: 500;
                         line-height: 30px;
 
@@ -227,8 +237,39 @@ body{
                         }
 
                     }
+
                 }
+               .copyright{
+                display: flex;
+                justify-content: space-around;
+                .copy1{
+                    height:20px;
+                    width:186.81px ;
+                    font-weight:400;
+                    font-size: 14.53px;
+                    margin-top: 23.99px;
+                }
+                .copy2{
+                    display:flex;
+                    width: auto;
+                    height: 24px;
+                    margin-top: 22.5px;
+                }
+               } 
+
             }
+        }
+    }
+    @media(min-width:2000px){
+        .container{
+            max-width:1920px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+        .foot{
+            max-width: 1320px;
+            margin-left: auto;
+            margin-right: auto;
         }
     }
 

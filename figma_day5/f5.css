@@ -3,16 +3,13 @@ body {
   padding: 0px;
 }
 body .container {
-  margin: 0px;
-  padding: 0px;
+  width: auto;
 }
 body .container .foot {
   display: flex;
   flex-direction: column;
   width: 1320px;
   height: 115px;
-  top: 6868.3px;
-  left: 300px;
   padding: 0px, 15px, 0px, 15px;
 }
 body .container .foot .foot1 {
@@ -21,12 +18,28 @@ body .container .foot .foot1 {
   font-size: 30px;
   line-height: 45px;
   font-style: Inter;
+  width: 564.9px;
+  height: 45px;
+  margin-left: 377.64px;
+  text-align: center;
+}
+body .container .foot .foot2 {
+  display: flex;
+  justify-content: space-between;
+  width: 1290px;
+  height: 30px;
+  margin-top: 40.33px;
+  padding: 0px, 45px, 0px, 45px;
+  padding-left: 45px;
+  padding-right: 45px;
 }
 body .container .footer {
   background-color: rgb(5, 7, 60);
-  width: 1920px;
+  background-image: url(bg.svg.png);
+  background-repeat: no-repeat;
+  width: auto;
   height: 723.25px;
-  top: 7103.3px;
+  margin-top: 120px;
   color: rgb(255, 255, 255);
 }
 body .container .footer .c1 {
@@ -65,8 +78,8 @@ body .container .footer .c1 .c11 .s2 {
   line-height: 32px;
   letter-spacing: 0em;
   text-align: left;
-  width: 74.72px;
-  height: 31.88px;
+  width: auto;
+  height: auto;
   width: 74.72px;
   top: 84.06px;
   left: 1045.48px;
@@ -81,7 +94,6 @@ body .container .footer .c2 .contact {
   width: 439.98px;
   height: 390px;
   top: 225.12px;
-  background-color: chartreuse;
 }
 body .container .footer .c2 .contact .p1 {
   font-family: Inter;
@@ -122,8 +134,6 @@ body .container .footer .c2 .company {
   height: 390px;
   top: 225.12px;
   padding-left: 15px;
-  left: 540.7px;
-  background-color: red;
 }
 body .container .footer .c2 .company .c1 {
   font-family: Inter;
@@ -134,7 +144,6 @@ body .container .footer .c2 .company .c1 {
   margin-top: 20px;
   margin-left: 0px;
   width: 91.47px;
-  background-color: yellow;
   height: 30px;
   top: 20px;
 }
@@ -152,7 +161,6 @@ body .container .footer .c2 .support {
   left: 769.66px;
   padding: 0px;
   padding-left: 15px;
-  background-color: aqua;
   font-weight: 500;
 }
 body .container .footer .c2 .support div {
@@ -167,12 +175,10 @@ body .container .footer .c2 .support p {
 body .container .footer .c2 .news {
   width: 330px;
   height: 390px;
-  background-color: red;
   padding-left: 15px;
-  padding-top: 20px;
 }
 body .container .footer .c2 .news .hed {
-  font-size: 19.69px;
+  margin-top: 15px;
   font-weight: 500;
   line-height: 30px;
 }
@@ -200,4 +206,34 @@ body .container .footer .c2 .news .div1 .div2 .div21 {
 body .container .footer .c2 .news .div1 .div2 .div22 {
   color: rgb(5, 7, 60);
   width: 35.45px;
+}
+body .container .footer .copyright {
+  display: flex;
+  justify-content: space-around;
+}
+body .container .footer .copyright .copy1 {
+  height: 20px;
+  width: 186.81px;
+  font-weight: 400;
+  font-size: 14.53px;
+  margin-top: 23.99px;
+}
+body .container .footer .copyright .copy2 {
+  display: flex;
+  width: auto;
+  height: 24px;
+  margin-top: 22.5px;
+}
+
+@media (min-width: 2000px) {
+  .container {
+    max-width: 1920px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .foot {
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }/*# sourceMappingURL=f5.css.map */
