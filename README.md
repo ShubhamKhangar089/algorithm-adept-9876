@@ -1,5 +1,5 @@
 # BOOTSTRAP AND FIGMA PROJECT UNIT-3
-Greetings and welcome to our WEB204 Construct Week Project! Our team of five members collaborated over the course of five days to bring this project to life, comprising two distinct parts.
+Greetings and welcome to our WEB204 Construct Week Project! Our team of five members collaborated over five days to bring this project to life, comprising two distinct parts.
 
 ## Part 1: Masai Hire(Hiring Aspriring Developer FOr Big MNC company.)
 
@@ -13,10 +13,10 @@ We are introducing a new model of higher education in which we, Masai, invest in
 ## Project Type
 Frontend 
 
+#Deploye App: [https://algorithm-adept-masaihire.netlify.app/](https://algorithm-adept-masaihire.netlify.app/)
 
-Here is a link that will take you to the website: [https://algorithm-adept-masaihire.netlify.app/](https://algorithm-adept-masaihire.netlify.app/)
-  
-
+  ## Directory Structure
+  https://drive.google.com/file/d/1kZFbvkbksw-84J0bjpJH61dE6krDtuoo/view?usp=sharing
 
   ## Part 2: Figma Design Exploration 
 
@@ -25,7 +25,10 @@ Here is a link that will take you to the website: [https://algorithm-adept-masai
    experiment with various design concepts, refine user interfaces, and foster creativity within the design community. The tech stack that was used was purely front-end based and limited to HTML, CSS, Sass and 
    Figma.
 
-  Here is a link that will take you to the website:- [https://figmadesign-sass.netlify.app/](https://algorithm-adept-figmadesign.netlify.app/)
+  #Deploye App: [https://figmadesign-sass.netlify.app/](https://algorithm-adept-figmadesign.netlify.app/)
+
+## Directory Structure
+https://drive.google.com/file/d/1FPX-i0Mxh9rNgWknSpvDCnfgMDAmyt6q/view?usp=drive_link
 
 ## Features
  - **Interactive Prototypes:** View interactive prototypes to experience the flow and functionality.
