@@ -2,7 +2,7 @@
 # BOOTSTRAP AND FIGMA PROJECT UNIT-3
 Greetings and welcome to our WEB204 Construct Week Project! Our team of five members collaborated over five days to bring this project to life, comprising two distinct parts.
 
-## Part 1: Masai Hire(Hiring Aspriring Developer FOr Big MNC company.)
+## Part 1: Masai Hire(Hiring Aspriring Developer For Big MNC company.)
 
 ## About the Project
 Masai Hire is an outcome-driven career school. Our mission is to skill India’s untapped & underutilized talent and to train them for some of the most in-demand jobs in the world. 
