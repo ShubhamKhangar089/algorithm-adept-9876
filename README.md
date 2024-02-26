@@ -10,15 +10,15 @@ The techstack that was used was purely front-end based and limited to HTML, CSS,
 
 ## Description
 
-We are introducing a new model of higher education in which we, Masai, invest in our students’ future and success. As India’s fastest growing career institute, Masai has one goal: unlocking the human potential of India by making our education system outcome driven.
+We are introducing a new model of higher education in which we, Masai, invest in our students’ future and success. As India’s fastest-growing career institute, Masai has one goal: unlocking the human potential of India by making our education system outcome-driven.
 
 ## Project Type
 Frontend 
 
-Here is a link that will take you to the website: https://gadgetgalaxy-bootstrap.netlify.app/
+Here is a link that will take you to the website: [https://algorithm-adept-masaihire.netlify.app/]
   
   **Some Basic Layout of navbar**
-   ![Screenshot 2024-01-22 154846](https://github.com/Anujkumar960/algorithm-kalaakar-1234/assets/154539617/e15deb6d-249b-4b53-85c7-b4a53cafc8b3)
+   ![](https://github.com/Anujkumar960/algorithm-kalaakar-1234/assets/154539617/e15deb6d-249b-4b53-85c7-b4a53cafc8b3)
 
   **Some Basic Layout of carousel**
     ![Screenshot 2024-01-22 154905](https://github.com/Anujkumar960/algorithm-kalaakar-1234/assets/154539617/054b4410-92b6-4d76-a81a-0929e2ca9fbd)
