@@ -112,9 +112,8 @@ body .a1 .wher .button {
 body .a1 .mid2 {
   height: 500px;
   width: auto;
-  background-color: rgb(235, 102, 43);
-  background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   margin-top: 30px;
   border-radius: 12px;
   display: flex;
@@ -128,13 +127,18 @@ body .special {
   width: auto;
   height: 205px;
   margin-top: 115px;
-  padding-left: 15px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 body .special .spe1 {
+  width: 1290px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 45px;
+  text-align: center;
 }
 body .special .spe1 h2 {
   margin: 0;
@@ -159,8 +163,9 @@ body .special .spe1 p {
   margin-right: 40.8px;
 }
 body .special .spe2 {
+  text-align: center;
+  width: 1290px;
   display: flex;
-  width: auto;
   justify-content: space-between;
   gap: 47.19px;
 }
@@ -192,7 +197,7 @@ body .special .spe2 div span {
     margin-left: auto;
   }
   .special {
-    max-width: 1290px;
+    max-width: 1320px;
     margin-right: auto;
     margin-left: auto;
   }
@@ -369,14 +374,14 @@ body .special .spe2 div span {
   background-size: cover;
   margin-bottom: 115px;
 }
-.shubham-container .bg-cover .col-lg-4 {
+.shubham-container .bg-cover .col {
   position: absolute;
   width: 439.98px;
   height: 350.38px;
   top: 199.82px;
   left: 110px;
 }
-.shubham-container .bg-cover .col-lg-4 h2 {
+.shubham-container .bg-cover .col h2 {
   margin: 0;
   width: 344.08px;
   height: 104px;
@@ -390,7 +395,7 @@ body .special .spe2 div span {
   text-align: left;
   color: #05073C;
 }
-.shubham-container .bg-cover .col-lg-4 p {
+.shubham-container .bg-cover .col p {
   width: 408.36px;
   height: 76.25px;
   margin-top: 14px;
@@ -403,7 +408,7 @@ body .special .spe2 div span {
   text-align: left;
   color: #05073C;
 }
-.shubham-container .bg-cover .col-lg-4 .buttonExplore {
+.shubham-container .bg-cover .col .buttonExplore {
   box-sizing: border-box;
   width: 221.88px;
   height: 62px;
