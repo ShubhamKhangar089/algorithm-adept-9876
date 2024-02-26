@@ -79,11 +79,12 @@ body{
       
     }
     .a1{
-        width: auto;
+        width:auto;
         height: 640px;
-        
+        // border:1px solid red;
         .wher{
-            
+            // width:auto;
+            // border:1px solid rgb(0, 0, 255);
             display: flex;
             margin-top: 30px;
             height: 80px;
@@ -94,19 +95,16 @@ body{
             align-items: center;
             justify-content: center;
             .d1{
+                // border:1px solid rgb(0, 0, 255);
                 width: 371.02px;
                 height:50px;
                 display: flex;
-                align-items: center;
-                
-                
-                
+                align-items: center; 
             .pink{
                  background-color: rgb(254,247,244);
                  height:50px;
                  width: 50px;
                  border-radius: 12px;
-
             }
             .txt>p{
                 margin:0px;
@@ -130,11 +128,15 @@ body{
         }
         }
         .mid2 {
+            // display: flex;
+            // justify-content: center;
+            // border:1px solid pink;
             height: 500px;
             width: auto ;
-            background-color: rgb(235,102,43);
-            background-size:cover;
+            // background-color: rgb(235,102,43);
             background-position: center;
+            background-repeat: no-repeat;
+            // background-image: url(./img/div.hero__slide.png);
             margin-top: 30px;
             border-radius: 12px;
             display: flex;
@@ -145,17 +147,26 @@ body{
           }
     }
     .special{
+        // border:2px solid red;
         background-color: white;
    width: auto;
    height: 205px;
    margin-top: 115px;
-   padding-left: 15px;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+ 
 //    border:1px solid black;
    .spe1{
+    width: 1290px;
+    // margin-left: 15px;
+    // border:1px solid rgb(21, 40, 190);
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 45px;
+    text-align: center;
     // border:1px solid black;
 
     h2{
@@ -189,9 +200,11 @@ margin-right: 40.8px;
 
    }
    .spe2{
+    text-align: center;
+    // border: 1px solid green;;
+    width: 1290px;
     display: flex;
-    width:auto;
-   justify-content: space-between;
+    justify-content: space-between;
     gap:47.19px;
      div{
         height: 100px;
@@ -225,7 +238,7 @@ margin-right: 40.8px;
         margin-left: auto;
     }
    .special{
-    max-width: 1290px;
+    max-width: 1320px;
     margin-right: auto;
     margin-left: auto;
    }
