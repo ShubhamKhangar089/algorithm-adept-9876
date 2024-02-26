@@ -4,7 +4,7 @@ Greetings and welcome to our WEB204 Construct Week Project! Our team of five mem
 ## Part 1: Masai Hire(Hiring Aspriring Developer FOr Big MNC company.)
 
 ## About the Project
-Masai Hire is an outcome driven career school. Our mission is to skill India’s untapped & underutilized talent, and to train them for some of the most in-demand jobs in the world. 
+Masai Hire is an outcome-driven career school. Our mission is to skill India’s untapped & underutilized talent, and to train them for some of the most in-demand jobs in the world. 
 The techstack that was used was purely front-end based and limited to HTML, CSS, and Bootstrap.
 
 
@@ -17,14 +17,7 @@ Frontend
 
 Here is a link that will take you to the website: [https://algorithm-adept-masaihire.netlify.app/]
   
-  **Some Basic Layout of navbar**
-   ![](https://github.com/Anujkumar960/algorithm-kalaakar-1234/assets/154539617/e15deb6d-249b-4b53-85c7-b4a53cafc8b3)
 
-  **Some Basic Layout of carousel**
-    ![Screenshot 2024-01-22 154905](https://github.com/Anujkumar960/algorithm-kalaakar-1234/assets/154539617/054b4410-92b6-4d76-a81a-0929e2ca9fbd)
-
-  **Some Basic Layout of footer**
-   ![Screenshot 2024-01-22 163713](https://github.com/Anujkumar960/algorithm-kalaakar-1234/assets/154539617/407cb1d9-a8c9-4575-ab70-73b12004e3ae))
 
   ## Part 2: Figma Design Exploration 
 
@@ -40,8 +33,7 @@ Here is a link that will take you to the website: [https://algorithm-adept-masai
  - **Style Guide:** Access a comprehensive style guide for consistent design elements.
  - **Collaborative Design:** Leverage the collaborative features of Figma for seamless teamwork.
 
- **Some Basic Layout of navbar**
- ![Screenshot 2024-01-22 16490](https://github.com/Anujkumar960/algorithm-kalaakar-1234/assets/154539617/89dd1f74-4f7b-4152-b61e-0c1ece1f653a)
+
 
 Thank you for taking the time to look at our project! Hope you liked it!
 
