@@ -1,3 +1,4 @@
+
 # BOOTSTRAP AND FIGMA PROJECT UNIT-3
 Greetings and welcome to our WEB204 Construct Week Project! Our team of five members collaborated over five days to bring this project to life, comprising two distinct parts.
 
@@ -16,7 +17,17 @@ Frontend
 #Deploye App: [https://algorithm-adept-masaihire.netlify.app/](https://algorithm-adept-masaihire.netlify.app/)
 
   ## Directory Structure
-  https://drive.google.com/file/d/1kZFbvkbksw-84J0bjpJH61dE6krDtuoo/view?usp=sharing
+  ![bootstrap path](https://github.com/ShubhamKhangar089/algorithm-adept-9876/assets/154405797/19d9bcd4-3f0e-4993-84a3-bb6625c9a815)
+
+  ##Basic Layout of Bootstrap Project
+  ![boostrap basic layout](https://github.com/ShubhamKhangar089/algorithm-adept-9876/assets/154405797/67f6a331-fc35-41fa-ae2f-ca43df8b76ad)
+
+  ## Features
+  List out the key features of your application.
+- The navbar for the project is sticky.
+- The form will be validated as per the requirements.
+- all the Carousell working with their functionality.
+
 
   ## Part 2: Figma Design Exploration 
 
@@ -28,13 +39,10 @@ Frontend
   #Deploye App: [https://figmadesign-sass.netlify.app/](https://algorithm-adept-figmadesign.netlify.app/)
 
 ## Directory Structure
-https://drive.google.com/file/d/1FPX-i0Mxh9rNgWknSpvDCnfgMDAmyt6q/view?usp=drive_link
+![figmaDesign path](https://github.com/ShubhamKhangar089/algorithm-adept-9876/assets/154405797/ad2c80e2-5aa9-4812-9bd2-2db8929bd3a4)
 
-## Features
- - **Interactive Prototypes:** View interactive prototypes to experience the flow and functionality.
- - **Style Guide:** Access a comprehensive style guide for consistent design elements.
- - **Collaborative Design:** Leverage the collaborative features of Figma for seamless teamwork.
-
+## Basic Layout of Figma
+![figmabasic layout](https://github.com/ShubhamKhangar089/algorithm-adept-9876/assets/154405797/2e63038b-fefd-4f30-a2f4-a228ea08fd96)
 
 
 Thank you for taking the time to look at our project! Hope you like it!
